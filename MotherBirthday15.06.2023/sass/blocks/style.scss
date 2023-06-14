@@ -1,0 +1,25 @@
+@import '../base/variables';
+*{
+    font-family: 'Asap', sans-serif;
+    box-sizing: border-box;
+    cursor: default;
+    user-select: none;
+}
+::-webkit-scrollbar{
+    width: 17px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 2px;
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: #971EE1;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #7a19b6;
+}
+@import '../blocks/header';
+@import '../blocks/promo';
+@import '../blocks/footer';
+@import '../blocks/media';

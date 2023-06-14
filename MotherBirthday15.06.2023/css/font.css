@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Asap';
+	src: local('Asap-SemiBold'),
+		url('../fonts/Asap-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
