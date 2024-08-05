@@ -1,5 +1,5 @@
 let lastScroll = 0;
-const defaultOffset = 200;
+const defaultOffset = 140;
 const header = document.querySelector('.header');
 
 const scrollPosition = () => window.pageYOffset || document.documentElement.scrollTop
